@@ -1,10 +1,7 @@
 ## Express Sequelize Mysql Template
 
 ### Description
-<span style="color:red;font-weight:700;font-size:20px">
-    This is a template
-</span>
- for a Node.js Express server with Sequelize and MySQL.
+This is a templatefor a Node.js Express server with Sequelize and MySQL.
 
 ### Installation
 1. Clone the repository
@@ -19,9 +16,7 @@
     - "handlebars": "^4.7.6",
     - "mysql2": "^2.2.5",
     - "sequelize": "^6.3.5"
-4. Create update the .env.EXAMPLE file with your MySQL username, password, and database name. <span style="color:red;font-weight:700;font-size:20px">
-    AND rename the file to .env
-</span>
+4. Create update the .env.EXAMPLE file with your MySQL username, password, and database name. AND rename the file to .env
 6. CREATE a database in MySQL, name should match the one in the .env file.
 7. Fill in the files in all the folders with the appropriate code.
 8. Run `node seeds/seed.js` to seed the database.
