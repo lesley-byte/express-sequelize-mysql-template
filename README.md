@@ -5,7 +5,7 @@ This is a template for a Node.js Express server with Sequelize and MySQL.
 
 ### Installation
 1. Clone the repository
-2. Run `npm init` 
+2. Run `npm init -y` 
 3. Run `npm install` for the dependencies.
     a. examples of the dependencies are:
     - "bcrypt": "^5.0.0",
