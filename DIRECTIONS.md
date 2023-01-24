@@ -38,9 +38,13 @@ This is a 🔥template🔥 for a Node.js Express server with Sequelize and MySQL
       "/__tests__/setup.js"
     ]
   }`
-4. Create update the `.env.EXAMPLE` file with your MySQL username, password, and database name. AND rename the file to `.env`
-6. CREATE a database in MySQL, name should match the one in the `.env` file.
-7. Fill in the files in all the folders with the appropriate code.
-8. Run `node seeds/seed.js` to seed the database.
-9. Run `npm start` to start the server.
-10. Open the browser and go to [👉localhost:3001](http://localhost:3001) to view the application.
+8. Create update the `.env.EXAMPLE` file with your MySQL username, password, and database name. AND rename the file to `.env`
+9. CREATE a database in MySQL, name should match the one in the `.env` file.
+10. Fill in the files in all the folders with the appropriate code.
+    - Fill in models
+    - Fill in controllers
+    - Fill in Views
+11. Run `node seeds/seed.js` to seed the database.
+12. Run `npm start` to start the server.
+13. Open the browser and go to [👉localhost:3001](http://localhost:3001) to view the application.
+14. Run `npm test` to run the tests.

@@ -27,6 +27,10 @@
 
 ## License
 
+MIT License
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Contributing
 
 ## Questions
