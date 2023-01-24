@@ -21,7 +21,11 @@
 
 ## Website  
 
+[Link to the website]()
+
 ## Screenshot
+
+![Screenshot](./assets/images/screenshot.png)
 
 ## Testing
 
