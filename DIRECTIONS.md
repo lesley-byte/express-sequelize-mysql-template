@@ -31,13 +31,14 @@ This is a 🔥template🔥 for a Node.js Express server with Sequelize and MySQL
     - `"supertest"`
     - `"cross-env"`
 7. Add the following to the `package.json` file:
-    - ` "jest": {
+    ```json
+     "jest": {
     "testEnvironment": "node",
     "coveragePathIgnorePatterns": [
       "/node_modules/",
       "/__tests__/setup.js"
     ]
-  }`
+  }```
 8. Create update the `.env.EXAMPLE` file with your MySQL username, password, and database name. AND rename the file to `.env`
 9. CREATE a database in MySQL, name should match the one in the `.env` file.
 10. Fill in the files in all the folders with the appropriate code.
