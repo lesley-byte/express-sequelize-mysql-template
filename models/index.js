@@ -1,5 +1,8 @@
-// require the models in the models folder
+// TODO require the rest of the models in the models folder
+const User = require('./User');
 
-// indicate the relationship between the models... hasMany, belongsTo, etc. as well as the foreign key
+// TODO: indicate the relationship between the models... hasMany, belongsTo, etc. as well as the foreign key
 
-// export the models with module.exports
+// TODO: export the rest of the models with module.exports
+
+module.exports = { User };
