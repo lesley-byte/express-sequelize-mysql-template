@@ -8,16 +8,16 @@ This is a 🔥template🔥 for a Node.js Express server with Sequelize and MySQL
 2. Run `npm init -y` 
 3. Run `npm install` for the dependencies.
     a. examples of the dependencies are:
-    - "bcrypt": "^5.0.0",
-    - "clog": "^5.1.0",
-    - "connect-session-sequelize": "^7.1.5",
-    - "dotenv": "^8.2.0",
-    - "express": "^4.17.1",
-    - "express-handlebars": "^5.2.0",
-    - "express-session": "^1.17.1",
-    - "handlebars": "^4.7.6",
-    - "mysql2": "^2.2.5",
-    - "sequelize": "^6.3.5"
+    - "bcrypt"
+    - "clog"
+    - "connect-session-sequelize"
+    - "dotenv"
+    - "express"
+    - "express-handlebars"
+    - "express-session"
+    - "handlebars"
+    - "mysql2"
+    - "sequelize"
 4. Create a `.gitignore` file and add the following:
     - node_modules
     - .DS_Store
@@ -26,10 +26,10 @@ This is a 🔥template🔥 for a Node.js Express server with Sequelize and MySQL
     - `"start": "node server.js",`
     - `"seed": "node seeds/seed.js"`
     - `"test": "jest"`
-6. Install the dev dependencies:
-    - `"jest": "^26.6.3",`
-    - `"supertest": "^6.1.3"`
-    - `"cross-env": "^7.0.3"`
+6. Install the dev dependencies with `npm install --save-dev`
+    - `"jest"`
+    - `"supertest"`
+    - `"cross-env"`
 7. Add the following to the `package.json` file:
     - ` "jest": {
     "testEnvironment": "node",
